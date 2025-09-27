@@ -1,0 +1,13 @@
+@import 'tailwindcss';
+
+input {
+        @apply border rounded-md p-1;
+}
+
+form {
+    @apply flex flex-col items-center
+}
+
+button {
+            @apply border rounded-md p-1 cursor-pointer;
+}
