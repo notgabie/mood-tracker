@@ -1,5 +1,52 @@
 @import 'tailwindcss';
 
+@font-face {
+    font-family: 'Reddit';
+    src: urlurl('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+}
+
+@theme {
+    --color-neutral-90: #21214D;
+    --color-neutral-60: #57577B;
+    --color-neutral-30: #9393B7;
+    --color-neutral-20: #CBCDD0;
+    
+    --color-blue-70: #2A4CD5;
+    --color-blue-60: #4865DB;
+    --color-blue-20: #C7D3F7;
+    --color-blue-10: #E0E6FA;
+
+    --color-red-70: #E60013;
+    --color-red-30: #FF9B99;
+
+    --color-indigo-20: #B8B1FF;
+    --color-blue-30: #89CAFF;
+    --color-gren-30: #89E780;
+    --color-amber-30: #FFC97C;
+
+    --color-gradient-1: #F5F5FF;
+    --color-gradient-2: #E0E0FF;
+
+    --spacing-025: 2px;
+    --spacing-05: 4px;
+    --spacing-075: 6px;
+    --spacing-100: 8px;
+    --spacing-125: 10px;
+    --spacing-150: 12px;
+    --spacing-200: 16px;
+    --spacing-250: 20px;
+    --spacing-300: 24px;
+    --spacing-400: 32px;
+    --spacing-500: 40px;
+    --spacing-600: 48px;
+    --spacing-800: 64px;
+    --spacing-1000: 80px;
+}
+
+* {
+    font-family: 'Reddit', sans-serif;
+}
+
 input {
         @apply border rounded-md p-1;
 }
