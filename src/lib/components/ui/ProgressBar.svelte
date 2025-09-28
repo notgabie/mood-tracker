@@ -3,7 +3,7 @@
 		$props();
 
 	function navigateToStep(clickedStep: number) {
-		if (clickedStep <= currentStep || clickedStep === currentStep + 1) {
+		if (clickedStep <= currentStep) {
 			currentStep = clickedStep;
 		}
 	}
